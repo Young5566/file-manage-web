@@ -1,7 +1,7 @@
 <template>
     <d2-container>
         <div style="display: flex;justify-content: center; align-items: center; padding: 10px 0">
-            <el-form style="width: 50%" ref="file" :model="file" label-width="80px">
+            <el-form style="width: 50%" ref="file" :model="user" label-width="80px">
                 <el-form-item label="用户名">
                     <el-input v-model="user.username"></el-input>
                 </el-form-item>
@@ -38,7 +38,7 @@
                 findByUsername(username).then(
                     res => {
                         if(res.code === 200) {
-                            this.file = res.data;
+                            this.user = res.data;
                         } else {
                             this.messagePoint("获取失败","error")
                         }

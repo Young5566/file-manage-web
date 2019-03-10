@@ -14,7 +14,7 @@
       <div
         class="page-login--content"
         flex="dir:top main:justify cross:center box:justify">
-        <div class="page-login--content-header">
+        <div class="page-login--content-header" style="margin-top: 50px;">
           <p class="page-login--content-header-motto">
             时间是一切财富中最宝贵的财富。 <span>—— 德奥弗拉斯多</span>
           </p>
@@ -48,14 +48,6 @@
           </div>
         </div>
         <div class="page-login--content-footer">
-          <p class="page-login--content-footer-options">
-            <a href="#">帮助</a>
-            <a href="#">隐私</a>
-            <a href="#">条款</a>
-          </p>
-          <p class="page-login--content-footer-copyright">
-            Copyright <d2-icon name="copyright"/> 2018 D2 Projects 开源组织出品 <a href="https://github.com/FairyEver">@FairyEver</a>
-          </p>
         </div>
       </div>
     </div>

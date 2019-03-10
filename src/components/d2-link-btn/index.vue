@@ -25,7 +25,7 @@ export default {
     link: {
       type: String,
       required: false,
-      default: 'https://github.com/d2-projects'
+      default: 'https://github.com/Young5566/file-manage-web.git'
     }
   }
 }

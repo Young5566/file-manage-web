@@ -1,3 +1,4 @@
 export default {
-    IP: 'http://localhost:8080'
+    // IP: 'http://localhost:9999/filemanage'
+    IP: 'http://tom-jerry.club/java/filemanage'
 }

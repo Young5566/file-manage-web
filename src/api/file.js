@@ -13,7 +13,7 @@ export function updateFile (data) {
 
 export function deleteFile(data) {
     return request({
-        url: fileUrl + "/delete/" + data.name + "/" + data.uuid,
+        url: fileUrl + "/" + data.name + "/delete/" +   data.uuid,
         method: 'delete'
     })
 }

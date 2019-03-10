@@ -30,10 +30,8 @@ export default {
   methods: {
     // 点击按钮的时候跳转到源代码
     handleClick () {
-      const file = this.filename.split('?')[0]
-      const url = file
-        ? `https://github.com/d2-projects/d2-admin/blob/master/${file}`
-        : 'https://github.com/d2-projects/d2-admin'
+      // const file = this.filename.split('?')[0]
+      const url = 'https://github.com/Young5566/file-manage-web.git'
       this.$open(url)
     }
   }
